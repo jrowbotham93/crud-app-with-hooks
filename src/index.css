@@ -7,7 +7,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.container {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  width: 100%;
+}
+
+table{
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid grey
+
+}
+
+tr {
+  border-bottom: 1px solid grey
+}
+
+button{
+  border-radius: 10%;
+  outline: none;
+
+}
+
+button:hover{
+  transform: scale(1.1)
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-large{
+  width: 50%;
+  justify-content: center;
+
 }
